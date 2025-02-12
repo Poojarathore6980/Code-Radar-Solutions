@@ -1,4 +1,4 @@
-int main <stdio.h> 
+#include <stdio.h> 
 int main(){
     char a[100];
     char b[100];
