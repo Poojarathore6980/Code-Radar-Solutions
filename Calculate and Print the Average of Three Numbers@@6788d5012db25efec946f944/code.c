@@ -1,6 +1,8 @@
 #include <stdio.h>
 int main(){
-    int a,b,c;
+    int a;
+    int b;
+    int c;
     printf("enter a \n" );
     printf("enter b \n");
     printf("enter c \n");
