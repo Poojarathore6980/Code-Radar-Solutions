@@ -3,9 +3,9 @@ int main(){
     double a,b,c;
     double Average=0;
     
-    scanf("%lf", &a);
+    scanf("%lf ", &a);
     
-    scanf("%lf", &b);
+    scanf("%lf ", &b);
     
     scanf("%lf", &c);
     Average=(a+b+c)/3;
