@@ -3,11 +3,11 @@ int main(){
     float a,b,c;
     float Average=0;
     
-    scanf("%d", &a);
+    scanf("%f", &a);
     
-    scanf("%d", &b);
+    scanf("%f", &b);
     
-    scanf("%d", &c);
+    scanf("%f", &c);
     Average=(a+b+c)/3;
     printf("Average: %d", Average);
     return 0;
