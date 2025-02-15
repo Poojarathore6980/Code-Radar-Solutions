@@ -1,6 +1,7 @@
 #include <stdio.h>
 int main(){
-    int a,b,c,Average=0;
+    int a,b,c;
+    int Average=0;
     printf("enter number a \n");
     scanf("%d", &a);
     printf("enter number b \n");
