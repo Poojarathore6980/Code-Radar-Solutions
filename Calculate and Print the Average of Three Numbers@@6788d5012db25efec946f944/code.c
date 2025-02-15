@@ -6,7 +6,9 @@ int main(){
     printf("enter a \n" );
     printf("enter b \n");
     printf("enter c \n");
-    scanf("%d" , &a,b,c);
+    scanf("%d" , &a);
+    scanf("%d" , b);
+    scanf("%d", &c);
     print("Average: %d" , a+b+c/3);
     return 0;
 }
