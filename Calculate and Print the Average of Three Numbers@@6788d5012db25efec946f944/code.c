@@ -1,14 +1,13 @@
 #include <stdio.h>
 int main(){
-    int a;
-    int b;
-    int c;
-    printf("enter a \n" );
-    printf("enter b \n");
-    printf("enter c \n");
-    scanf("%d" , &a);
-    scanf("%d" , b);
+    int a,b,c,Average=0;
+    printf("enter number a \n");
+    scanf("%d", &a);
+    printf("enter number b \n");
+    scanf("%d", &b);
+    printf("enter number c \n ");
     scanf("%d", &c);
-    print("Average: %d" , a+b+c/3);
+    Average=(a+b+c)/3;
+    printf("Average: %d", Average);
     return 0;
 }
