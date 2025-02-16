@@ -1,10 +1,11 @@
 #include <stdio.h>
 int main(){
-    int N;
-    scanf("%d", &N);
-    for(int i=1; i<=N;i++){
-         int sum =+i;
-        printf(" %d ", sum);
+    int a;
+    scanf("%d", &a);
+    for(int i=1;i<=a;i++){
+        int sum=sum+i;
+        printf("%d", sum);
     }
     return 0;
+
 }
