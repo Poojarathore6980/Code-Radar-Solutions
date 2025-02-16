@@ -6,7 +6,7 @@ int main(){
       a=='A' || a=='E' || a=='I' || a=='O'|| a== 'U'){
         printf("Vowel");
     }
-    else if(a>='A' && a<='Z' || a>='a' && a<='z' ){
+    else if((a>='A' && a<='Z') || (a>='a' && a<='z') ){
         printf("Consonant");
     }
     else{
