@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char 'c';
-    scanf("%d %d %c", &a, &b , &'c');
+    char c;
+    scanf("%d %d %c", &a, &b , &c);
     if(c== '+'){
         int sum=a+b;
         printf("%d", sum);
@@ -17,7 +17,7 @@ int main(){
     }
     else if (c=='/'){
         int div=a/b;
-        printf("%f", div);
+        printf("%.0f", div);
     }
     else {
         printf("error");
