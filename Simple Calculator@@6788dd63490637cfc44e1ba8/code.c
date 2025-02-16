@@ -16,7 +16,7 @@ int main(){
         printf("%d", mult);
     }
     else if (c=='/'){
-        int div=a/b;
+        float div=a/b;
         printf("%.1f", div);
     }
     else {
