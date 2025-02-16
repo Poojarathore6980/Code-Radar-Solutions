@@ -3,21 +3,21 @@ int main(){
     int a,b;
     char c;
     scanf("%d %d %c", &a, &b , &c);
-    if(c= '+'){
+    if(c== '+'){
         int sum=a+b;
-        printf("%d", sum)
+        printf("%d", sum);
     }
-    else if (c='-'){
-        int mul=a-b;
-        printf("%d", mul);
+    else if (c=='-'){
+        int sub=a-b;
+        printf("%d", sub);
     }
-    else if (c='*'){
+    else if (c=='*'){
         int mult=a*b;
         printf("%d", mult);
     }
-    else if (c='/'){
+    else if (c=='/'){
         int div=a/b;
-        printf("%d", div);
+        printf("%f", div);
     }
     else {
         printf("error");
