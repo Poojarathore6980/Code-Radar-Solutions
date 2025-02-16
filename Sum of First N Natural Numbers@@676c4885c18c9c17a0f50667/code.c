@@ -1,11 +1,11 @@
 #include <stdio.h>
 int main(){
-    int a;
+    int a ,sum=0;
     
     scanf("%d", &a);
-    int sum=(a*(a+1))/2;
-    printf("%d", sum);
-    
+    for(int i=1;i<=a;i++){
+        sum+=i;
+        printf("%d",sum );
         
     }
     return 0;
