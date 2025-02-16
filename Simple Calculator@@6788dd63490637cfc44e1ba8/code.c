@@ -17,7 +17,7 @@ int main(){
     }
     else if (c=='/'){
         int div=a/b;
-        printf("%.0f", div);
+        printf("%.1f", div);
     }
     else {
         printf("error");
