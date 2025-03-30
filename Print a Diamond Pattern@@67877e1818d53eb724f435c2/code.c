@@ -6,7 +6,7 @@ int main(){
         for(int j=1;j<=n-i;j++){
             printf(" ");
         }
-        for(int k=1;k<=2i-1;k++){
+        for(int k=1;k<=2*i-1;k++){
             printf("*");
         }
         printf("\n");
@@ -15,7 +15,7 @@ int main(){
         for(int sp=1;sp<=n-i;sp++ ){
            printf(" "); 
         }
-        for(int st=1;st<=2i-1;st++){
+        for(int st=1;st<=2*i-1;st++){
             printf("*");
         }
         printf("\n");
