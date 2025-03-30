@@ -15,7 +15,7 @@ int main(){
         for(int sp=1;sp<=n-i;sp++ ){
            printf(" "); 
         }
-        for(int star<=2i-1;star++){
+        for(int star=1;star<=2i-1;star++){
             printf("*");
         }
         printf("\n");
